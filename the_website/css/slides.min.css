@@ -33,6 +33,17 @@ button, .container .wrap, .slides-form.center input, .slides-form.center textare
             vertical-align: bottom;
             
         }
+        .p, blockquote, p {
+            font-size: 18px;
+            line-height: 1.6363636364;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+        element.style {
+            margin: 15px;
+            float: left;
+            box-shadow: 14px 12px 20px 6px white;
+        }
        
 
     
