@@ -11,6 +11,28 @@ button, .container .wrap, .slides-form.center input, .slides-form.center textare
     .h1, h1 {
      text-align: center;
     }
+    @media (max-width: 1023px){
+        .h1, .h1.big, .h1.huge, h1, h1.big, h1.huge {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }}
+        @media (min-width: 590px){
+            .h1, .h1.big, .h1.huge, h1, h1.big, h1.huge {
+                font-size: 45px;
+                margin-bottom: 0px;
+        }}
+            
+        .h2.huge, h2.huge {
+            font-size: 30px;
+            text-align: right;
+            font-weight: 100;
+        }
+        .panel .sections .menu svg {
+            width: 40px;
+            height: 40px;
+            vertical-align: bottom;
+            
+        }
        
 
     
